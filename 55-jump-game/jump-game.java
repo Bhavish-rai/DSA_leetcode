@@ -8,13 +8,6 @@ class Solution {
                 goal=i;
             }
         }
-        if(goal==0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return (goal==0);
     }
 }
