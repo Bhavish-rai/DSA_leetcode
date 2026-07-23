@@ -17,6 +17,6 @@ class Solution {
                 return j;
             }
         }
-        return j;
+        return 0;
     }
 }
