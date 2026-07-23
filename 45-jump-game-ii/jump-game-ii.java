@@ -6,7 +6,7 @@ class Solution {
         }
         int j=0;
         int c=0,f=0;
-        for(int i=0;i<nums.length;i++)
+        for(int i=0;i<=nums.length;i++)
         {
             f=Math.max(f,i+nums[i]);
             if(i==c)
